@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="authentication.png">
+</head>
+<body>
+    <div class="body">
+         <div class="main_container">
+            <p>Welcome back!👋</p>
+            <h1>Sign up</h1>
+            <div class="form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name"  class="input" required>
+                <label for="email">Your Email</label>
+                <input type="email" id="email" class="input" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" class="input" required>
+                <label for="password">Confirm Password</label>
+                <input type="password" id="C-password" class="input" required>
+                <div class="div_btn">
+                    <button type="button" id="btn" onclick="signup()" >CONTINUE</button>
+                </div>
+                <div id="wrong_pass"></div>
+            </div>
+        </div>
+    </div>
+    <div class="noacc"><p>Don’t have an account? <a style="color: rgb(242, 222, 244);text-decoration: none;" href="index.html">Sign up.</a></p></div>
+  
+
+    <script src="sript.js"></script>
+</body>
+</html>

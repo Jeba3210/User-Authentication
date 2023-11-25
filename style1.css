@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Inclusive+Sans:ital@1&family=Inter&family=Kaushan+Script&family=Mulish&family=Nunito&family=Nunito+Sans:opsz@6..12&family=Oswald&family=Playfair+Display&family=Playfair:opsz@5..1200&family=Poppins&family=Roboto&family=Roboto+Slab&display=swap');
+*{
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background-image: url(back2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+   
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_container{
+    height: 550px;
+    width: 500px;
+    box-sizing: border-box;
+    background-color: rgb(252, 246, 246);
+    margin-top: 180px;
+    border-radius: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#btn{
+    background-color: rgb(168, 97, 176);
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    padding-bottom: 50px;
+
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(154, 32, 165);
+    font-size: 1.5rem;
+}
+.div_btn{
+    padding-top: 50px;
+  text-align: center;
+}
+
+h1{
+   color: rgb(154, 32, 165);
+    margin-top: -50px;
+    margin-left: 110px;
+}
+p{
+    font-size: 1.2rem;
+}
+.profile {
+    font-size: 2.3rem !important;
+
+}
